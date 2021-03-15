@@ -30,25 +30,37 @@ $ npm run start:dev
 
 ## Available API Requests
 
+API Index or Health Check
+
 ```
 GET - http://localhost:3000/api
 ```
+
+Get all avaiable address books
 
 ```
 GET - http://localhost:3000/api/book
 ```
 
+Get all contacts of a specific book
+
 ```
 GET - http://localhost:3000/api/book/:id
 ```
+
+Compare two books
 
 ```
 GET - http://localhost:3000/api/book/compare?bookA=1&bookB=2
 ```
 
+Get all contacts
+
 ```
 GET - http://localhost:3000/api/contact
 ```
+
+Create contact
 
 ```
 POST - http://localhost:3000/api/contact
